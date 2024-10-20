@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--// #ffe6f1-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopIn Email Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .email-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .header {
+            background-color: #d44335;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header img {
+            height: 50px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        .body {
+            padding: 30px;
+            color: #333333;
+        }
+
+        .body h1 {
+            font-size: 22px;
+            color: #ff4837;
+        }
+
+        .body p a {
+            text-decoration: none;
+            color: #ff6f61;
+        }
+
+        .highlight {
+            background-color: #ffe6f1;
+            border-left: 4px solid #ff6f61;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .highlight h2 {
+            font-size: 18px;
+            color: #ff4837;
+        }
+
+        .event-list {
+            margin: 20px 0;
+        }
+
+        .event {
+            background-color: #f7f7f7;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .event h3 {
+            font-size: 16px;
+            color: #333;
+            margin: 0 0 5px 0;
+        }
+
+        .event h3 a {
+            text-decoration: none;
+            color: #333333;
+        }
+
+        .cta-button {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 30px 0;
+            display: block;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button :hover {
+            color: black
+        }
+
+        .footer {
+            text-align: center;
+            color: #777777;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #ff6f61;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-container">
+        <!-- Header -->
+        <div class="header">
+            <img src="Higher res - Logo (1).png" alt="PopIn Logo">
+            <div>| Connect, Network, Grow!</div>
+        </div>
+        <!--
+        <div class="header">
+            ✨ PopIn | Connect, Network, Grow! ✨
+        </div>
+-->
+        <!-- Body -->
+        <div class="body">
+            <p>Hey [First Name],</p>
+            <p>Ready to level up your networking game? Whether you're looking to meet new friends, find business
+                connections, or just vibe with like-minded individuals, <strong>PopIn</strong> is here to make it FUN,
+                easy, and unforgettable! 🎤💥</p>
+
+            <h1>💡 What's PopIn?</h1>
+            <p> <a href="https://beta.popin.site/LandingPage" target="_blank">PopIn</a> is <em>not your average
+                    networking
+                    platform</em>. We're all about curating events, meetups, and
+                experiences where you can:</p>
+            <ul>
+                <li>🔥 Meet professionals from different industries</li>
+                <li>💬 Chat with people who share your vibe</li>
+                <li>🎉 Attend the coolest events in your area</li>
+                <li>🌍 Expand your network—<em>effortlessly</em></li>
+            </ul>
+
+            <div class="highlight">
+                <h2>👾 PopIn Highlights:</h2>
+                <ul>
+                    <li>🎯 <strong>Targeted Connections:</strong> Connect with people who match your interests—<em>no
+                            more awkward intros</em></li>
+                    <li>🎨 <strong>Custom Profiles:</strong> Let your personality shine! Customize your profile to stand
+                        out in the crowd</li>
+                    <li>🎟️ <strong>Exclusive Events:</strong> Get access to invite-only events that you don't want to
+                        miss</li>
+                    <li>🤝 <strong>Real Conversations:</strong> No small talk—just genuine, meaningful conversations
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Event Section -->
+            <div class="event-list">
+                <h2>🔥 Upcoming Events You'll Love:</h2>
+                <div class="event">
+                    <h3><a href="">🌆 [Event 1 Name] | [Date] </a></h3>
+                </div>
+                <div class="event">
+                    <h3><a href="">💬 [Event 2 Name] | [Date] </a></h3>
+                </div>
+                <div class="event">
+                    <h3><a href="">🎉 [Event 3 Name] | [Date] </a></h3>
+                </div>
+                <p style="text-align: center; font-size: 12px;">*Spots are limited! Don't wait!*</p>
+            </div>
+
+            <!-- Call to Action Button -->
+            <a href="https://beta.popin.site/Signin" class="cta-button" target="_blank">🎯 Let's PopIn Now!</a>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            Follow us on
+            <a href="https://www.instagram.com/letspopin" target="_blank">Instagram</a>,
+            <a href="https://www.linkedin.com/company/letspopin/" target="_blank">LinkedIn</a>, and
+            <a href="https://x.com/letspopin" target="_blank">Twitter</a>for the latest updates!<br>
+            <a href="https://beta.popin.site/LandingPage" target="_blank">PopIn</a>| Redefining Networking | All Rights
+            Reserved
+        </div>
+    </div>
+</body>
+
+</html>
